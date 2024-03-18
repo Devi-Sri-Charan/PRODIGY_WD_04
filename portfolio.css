@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #080808;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    width: 100vw;
+    /* height: 80vh; */
+    /* background-image: url(b.jpg); */
+    /* background-image: url(Photo.png); */
+    /* background-image: url(image.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:right; */
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    /* border-bottom: #fff solid 0.01rem; */
+}
+
+.container {
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .left{
+    width: 30vw;
+} */
+.right {
+    display: flex;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    font-weight: 900;
+}
+
+nav:hover {
+    background-color: #212121;
+}
+
+.right a:hover {
+    color: purple;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.text {
+    /* padding: 1rem;
+    margin: 1rem; */
+    margin-top: 5%;
+    /* margin-left: 5%; */
+    /* padding: 2rem; */
+    width: 60vw;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: 900;
+    color: purple;
+}
+
+#element {
+    font-size: 3rem;
+    font-weight: 900;
+    color: purple;
+}
+
+.btns {
+    margin: 1rem;
+    margin-left: 0rem;
+}
+
+.btns button {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: purple;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: black solid 2px;
+    margin-right: 1rem;
+}
+
+.btns button:hover {
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+.about {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem;
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    /* border: #fff solid 1px; */
+    border-radius: 1rem;
+    /* background-color: #121121; */
+    background-color: #212121;
+}
+
+.leftabout {
+    /* border: #fff solid 1px; */
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+div {
+    font-size: 1.2rem;
+}
+
+span {
+    color: purple;
+    font-weight: 700;
+}
+
+h3 {
+    color: purple;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.logos {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    padding-right: 1rem;
+}
+
+.logo:hover {
+    /* border: #fff solid 2px; */
+    /* background-color: #121121; */
+    background-color: #212121;
+    border-radius: 1rem;
+}
+
+img {
+    /* margin-left: 2rem; */
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.skills {
+    padding-top: 1rem;
+    text-align: center;
+    /* border: #fff solid 1px; */
+    border-radius: 1rem;
+    margin: 1.2rem;
+    /* background-color: #121121; */
+    background-color: #212121;
+}
+
+.skills h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: purple;
+    margin: 2rem;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: #fff solid 1px; */
+}
+
+.box {
+    margin: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.projects {
+    padding-top: 1rem;
+    text-align: center;
+    /* border: #fff solid 1px; */
+    /* background-color: #121121; */
+    background-color: #212121;
+    border-radius: 1rem;
+    margin: 1.2rem;
+}
+
+.projects h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: purple;
+    margin: 2rem;
+}
+
+.p {
+    margin: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.p:hover{
+    text-decoration: underline;
+}
+.contactform {
+    margin: 1.2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-top: 3rem;
+    /* border: #fff solid 2px; */
+    /* background-color: #121121; */
+    background-color: #212121;
+
+}
+
+.items {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+sup {
+    color: red;
+}
+
+.item label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    width: 7.5rem;
+}
+
+.change {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+    color: #121121;
+    border-radius: 1rem;
+    width: 20rem;
+}
+
+.button {
+    width: 11rem;
+    height: 2.4rem;
+    color: black;
+    background-color: purple;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 0.6rem;
+}
+
+.sub :hover {
+    font-size: 1.6rem;
+}
+
+/* input[type="text"]:hover ,input[type="email"]:hover{
+    background-color: purple;
+} */
+.change:hover {
+    background-color: purple;
+}
+footer{
+    margin: 1.2rem;
+    border-radius: 1rem;
+    background-color: #212121;
+    padding: 0rem;
+    text-align: center;
+}
+.footer{
+    display: block;
+    margin: auto;
+}
+.mail a{
+    color: white;
+}
+@media only screen and (max-width: 800px) {
+    .right {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        display: none;
+        animation: slidedown 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #121212;
+        padding: 1rem;
+    }
+
+    @keyframes slidedown {
+        from{
+            transform: translateY(-100%);
+        }
+        to{
+            transform: translateY(0);
+        }
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .text {
+        margin-right: 7.5rem;
+        align-items: end;
+    }
+
+    .header {
+        overflow: scroll;
+    }
+}
