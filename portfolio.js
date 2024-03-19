@@ -5,8 +5,3 @@ icon.addEventListener('click',function() {
 });
 
 let cf_name = document.getElementById('name');
-
-// if(cf_name.value ==="")
-// {
-//     $("#errortxt").text("Name is required"); 
-// }
